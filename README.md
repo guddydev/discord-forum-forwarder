@@ -7,6 +7,6 @@ The bot expects a headline with an URL. Headlines longer than 99 characters are 
 0. Enable developer mode in your Discord settings
 1. Create a Discord application and a bot and save the token and clientId.
 2. Create a `config.json` with the token, clientId and guildId (obtained from the server settings). 
-3. Replace the sourceId and forumId with the source channel you want to send from and to 
+3. Replace the sourceId and forumId in `index.js` with the source channel you want to send from and to 
 4. Run `node index.js` to start the bot. 
 
